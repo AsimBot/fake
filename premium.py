@@ -569,16 +569,26 @@ def generate(text):
 			i=i.lower()
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
+				results.append(i+"1234")
+				results.append(i+"12")
+				results.append(i+"786")
+				results.append(i+"1")
+				results.append(i+"1122")
 				results.append(i+"12345")
 			else:
 				results.append(i+"123")
+				results.append(i+"1234")
+				results.append(i+"12")
+				results.append(i+"786")
+				results.append(i+"1")
+				results.append(i+"1122")
 				results.append(i+"12345")
 				results.append(i)
-				if "indonesia" in ips:
-					results.append("sayang")
-					results.append("bismillah")
-					results.append("anjing")
-					results.append("123456")
+				if "pakistan" in ips:
+					results.append("pakistan")
+					results.append("786786")
+					results.append("pakistan123")
+					results.append("000786")
 	return results
 
 ### BRUTE CRACK ###
